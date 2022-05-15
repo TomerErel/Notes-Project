@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <title>My Task Board</title>
+</head>
+<body>
+  <h1>My Task Board</h1>
+  <div class="container">
+    <div class="row">
+        <form action="*">
+      <label>Enter Task Information</label><br>
+      <textarea cols="50" rows="5" placeholder="Enter task information" required></textarea><br>
+        <label>Enter task date:</label>
+        <input type="date" class="date" required><br>
+        <label>Please Enter time:</label>
+        <input type="time" class="time"> <br>
+        <button class="btn btn-success" id="saveBtn" type="submit">Save</button>
+        <button type="button" id="clear" class="btn btn-danger">Clear</button> 
+      </form>
+    </div>
+    </div>
+
+<div class="note-container">
+  <div class="note"> 
+    <button id="delButton"></button>
+    <div class="inside-note">
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
